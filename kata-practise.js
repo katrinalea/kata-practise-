@@ -23,3 +23,8 @@ function min(a, b) {
   }
 }
 console.log(min(1, 2));
+
+console.log(min(3,4), "expect - 3")
+console.log(min(5,3), "expect - 3")
+console.log(min(2, -3), "expect - -3")
+
